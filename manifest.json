@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "slackMark",
+    "description": "Review This Later!",
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "storage",
+      "REPLACE_THIS_WITH_YOUR_AWS_API_GW_URL"
+    ],
+    "content_security_policy": "script-src 'self'; object-src 'self'",
+    "browser_action": {
+      "default_popup": "index.html"
+    },
+    "author": "Nilesh Prasad"
+  }
